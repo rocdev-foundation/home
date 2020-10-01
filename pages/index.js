@@ -1,20 +1,34 @@
-import Head from 'next/head'
+import Head from "next/head";
+import Link from "next/link";
 
 export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Create Next App</title>
+        <title>RocDev</title>
         <link rel="icon" href="/favicon.ico" />
+        <link
+          href="https://fonts.googleapis.com/css?family=Crimson+Text"
+          rel="stylesheet"
+        />
       </Head>
 
       <main>
         <h1 className="title">
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          <img src="/rocdev.svg" alt="RocDev Logo" className="jumbo-logo" />
+          <p>
+            Learn{" "}
+            <Link href="https://nextjs.org">
+              <a>Next.js!</a>
+            </Link>
+          </p>
         </h1>
 
         <p className="description">
-          Get started by editing <code>pages/index.js</code>
+          Read the{" "}
+          <Link href="/code-of-conduct">
+            <a>Code of Conduct</a>
+          </Link>
         </p>
 
         <div className="grid">
@@ -54,7 +68,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
+          Powered by{" "}
           <img src="/vercel.svg" alt="Vercel Logo" className="logo" />
         </a>
       </footer>
@@ -99,7 +113,7 @@ export default function Home() {
 
         a {
           color: inherit;
-          text-decoration: none;
+          // text-decoration: none;
         }
 
         .title a {
@@ -178,6 +192,10 @@ export default function Home() {
           line-height: 1.5;
         }
 
+        .jumbo-logo {
+          height: 4em;
+        }
+
         .logo {
           height: 1em;
         }
@@ -205,5 +223,5 @@ export default function Home() {
         }
       `}</style>
     </div>
-  )
+  );
 }
