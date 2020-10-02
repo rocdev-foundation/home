@@ -63,14 +63,12 @@ export default function Home() {
       </main>
 
       <footer>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{" "}
-          <img src="/vercel.svg" alt="Vercel Logo" className="logo" />
+        This work is licensed under a{" "}
+        <a href="https://creativecommons.org/licenses/by-nc/4.0/legalcode">
+          Creative Commons Attribution-NonCommercial 4.0 International Public
+          License
         </a>
+        .
       </footer>
 
       <style jsx>{`
