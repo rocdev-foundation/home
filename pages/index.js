@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
+import SlackInvite from "../src/SlackInvite";
 
 export default function Home() {
   return (
@@ -38,8 +39,8 @@ export default function Home() {
           </a>
 
           <a href="https://nextjs.org/learn" className="card">
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+            <h3>Join our Slack</h3>
+            <SlackInvite />
           </a>
 
           <a
