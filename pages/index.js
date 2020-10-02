@@ -17,10 +17,11 @@ export default function Home() {
         <h1 className="title">
           <img src="/rocdev.svg" alt="RocDev Logo" className="jumbo-logo" />
           <p>
-            Learn{" "}
-            <Link href="https://nextjs.org">
-              <a>Next.js!</a>
-            </Link>
+            We are a community of professionals in disciplines related to software 
+            development in the Greater Rochester Area. Made up of Software & Quality 
+            Assurance Engineers, Product Managers, Entrepreneurs, Students, and Teachers 
+            looking to share our experiences and knowledge with one another in an effort 
+            to support and grow the community as a whole.
           </p>
         </h1>
 
