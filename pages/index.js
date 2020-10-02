@@ -21,7 +21,7 @@ export default function Home() {
             we aim to share our experiences and knowledge with one another in an effort 
             to support and grow  as a whole. In disciplines related to Software & 
             Development such as Software Engineering, Product Managment, and Quality 
-            Assurance; our aim is to promote the quality and profile of the Rochester 
+            Assurance; our hope is to promote the quality and profile of the Rochester 
             Tech scene. Our members are made up of Contributors, Managers, Entrepreneurs, 
             Students, and Teachers; all with a passion for better code.
           </p>
