@@ -17,11 +17,13 @@ export default function Home() {
         <h1 className="title">
           <img src="/rocdev.svg" alt="RocDev Logo" className="jumbo-logo" />
           <p>
-            We are a community of professionals in disciplines related to software 
-            development in the Greater Rochester Area. Made up of Software & Quality 
-            Assurance Engineers, Product Managers, Entrepreneurs, Students, and Teachers 
-            looking to share our experiences and knowledge with one another in an effort 
-            to support and grow the community as a whole.
+            As the Greater Rochester Area's leading community of tech professionals,
+            we aim to share our experiences and knowledge with one another in an effort 
+            to support and grow  as a whole. In disciplines related to Software & 
+            Development such as Software Engineering, Product Managment, and Quality 
+            Assurance; our aim is to promote the quality and profile of the Rochester 
+            Tech scene. Our members are made up of Contributors, Managers, Entrepreneurs, 
+            Students, and Teachers; all with a passion for better code.
           </p>
         </h1>
 
