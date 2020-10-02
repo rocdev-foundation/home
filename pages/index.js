@@ -20,7 +20,7 @@ export default function Home() {
             As the Greater Rochester Area's leading community of tech professionals,
             we aim to share our experiences and knowledge with one another in an effort 
             to support and grow  as a whole. In disciplines related to Software & 
-            Development such as Software Engineering, Product Managment, and Quality 
+            Development such as Software Engineering, Product Management, and Quality 
             Assurance; our hope is to promote the quality and profile of the Rochester 
             Tech scene. Our members are made up of Contributors, Managers, Entrepreneurs, 
             Students, and Teachers; all with a passion for better code.
