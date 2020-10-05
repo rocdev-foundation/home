@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
+import SlackInvite from "../src/SlackInvite";
 
 export default function Home() {
   return (
@@ -33,6 +34,9 @@ export default function Home() {
             <a>Code of Conduct</a>
           </Link>
         </p>
+
+        <h3>Join our Slack</h3>
+        <SlackInvite />
       </main>
 
       <footer>
