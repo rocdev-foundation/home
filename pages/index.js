@@ -18,10 +18,13 @@ export default function Home() {
         <h1 className="title">
           <img src="/rocdev.svg" alt="RocDev Logo" className="jumbo-logo" />
           <p>
-            Learn{" "}
-            <Link href="https://nextjs.org">
-              <a>Next.js!</a>
-            </Link>
+            As the Greater Rochester Area's largest community of tech professionals,
+            we aim to share our experiences and knowledge with one another in an effort
+            to support and grow  as a whole. In disciplines related to Software &
+            Development such as Software Engineering, Product Management, and Quality
+            Assurance; our hope is to promote the quality and profile of the Rochester
+            Tech scene. Our members are made up of Contributors, Managers, Entrepreneurs,
+            Students, and Teachers; all with a passion for better code.
           </p>
         </h1>
 
@@ -32,46 +35,17 @@ export default function Home() {
           </Link>
         </p>
 
-        <div className="grid">
-          <a href="https://nextjs.org/docs" className="card">
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className="card">
-            <h3>Join our Slack</h3>
-            <SlackInvite />
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className="card"
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className="card"
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div>
+        <h3>Join our Slack</h3>
+        <SlackInvite />
       </main>
 
       <footer>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{" "}
-          <img src="/vercel.svg" alt="Vercel Logo" className="logo" />
+        This work is licensed under a{" "}
+        <a href="https://creativecommons.org/licenses/by-nc/4.0/legalcode">
+          Creative Commons Attribution-NonCommercial 4.0 International Public
+          License
         </a>
+        .
       </footer>
 
       <style jsx>{`
@@ -153,59 +127,8 @@ export default function Home() {
             DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
         }
 
-        .grid {
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          flex-wrap: wrap;
-
-          max-width: 800px;
-          margin-top: 3rem;
-        }
-
-        .card {
-          margin: 1rem;
-          flex-basis: 45%;
-          padding: 1.5rem;
-          text-align: left;
-          color: inherit;
-          text-decoration: none;
-          border: 1px solid #eaeaea;
-          border-radius: 10px;
-          transition: color 0.15s ease, border-color 0.15s ease;
-        }
-
-        .card:hover,
-        .card:focus,
-        .card:active {
-          color: #0070f3;
-          border-color: #0070f3;
-        }
-
-        .card h3 {
-          margin: 0 0 1rem 0;
-          font-size: 1.5rem;
-        }
-
-        .card p {
-          margin: 0;
-          font-size: 1.25rem;
-          line-height: 1.5;
-        }
-
         .jumbo-logo {
           height: 4em;
-        }
-
-        .logo {
-          height: 1em;
-        }
-
-        @media (max-width: 600px) {
-          .grid {
-            width: 100%;
-            flex-direction: column;
-          }
         }
       `}</style>
 
