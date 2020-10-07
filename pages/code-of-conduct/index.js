@@ -6,81 +6,89 @@ export default function CodeOfConduct() {
         <h2 id="coc_our-pledge">Our Pledge</h2>
         <p>
           In the interest of fostering an open and welcoming environment, we as
-          contributors, maintainers, and organizers pledge to making participation in
-          our projects and our community a harassment-free experience for everyone,
-          regardless of age, body size, disability, ethnicity, gender identity and
-          expression, level of experience, nationality, personal appearance, race,
-          religion, or sexual identity and orientation.
+          members, contributors, and leaders pledge to make participation in our
+          community a harassment-free experience for everyone, regardless of age,
+          body size, visible or invisible disability, ethnicity, sex characteristics,
+          gender identity and expression, level of experience, education,
+          socio-economic status, nationality, personal appearance, race, religion,
+          or sexual identity and orientation.
+        </p>
+    
+        <p>
+          We pledge to act and interact in ways that contribute to an open,
+          welcoming, diverse, inclusive, and healthy community.
         </p>
 
         <h2 id="coc_our-standards">Our Standards</h2>
         <p>
-          Examples of behavior that contributes to creating a positive environment
-          include:
+          Examples of behavior that contributes to a positive environment for our community include:
         </p>
         <ul>
           <li>Using welcoming and inclusive language</li>
+          <li>Demonstrating empathy and kindness toward other people</li>
           <li>Being respectful of differing viewpoints and experiences</li>
-          <li>Gracefully accepting constructive criticism</li>
-          <li>Focusing on what is best for the community</li>
-          <li>Showing empathy towards other community members</li>
+          <li>Giving and gracefully accepting constructive feedback</li>
+          <li>Accepting responsibility and apologizing to those affected by our mistakes, and learning from the experience</li>
+          <li>Focusing on what is best not just for us as individuals, but for the overall community</li>
         </ul>
         <p>
           Examples of unacceptable behavior by participants include:
         </p>
         <ul>
           <li>
-            The use of sexualized language or imagery and unwelcome sexual attention or
-            advances
+            The use of sexualized language or imagery, and sexual attention or advances of any kind
           </li>
           <li>
-            Trolling, insulting/derogatory comments, and personal or political attacks
+            Trolling, insulting or derogatory comments, and personal or political attacks
           </li>
           <li>Public or private harassment</li>
           <li>
-            Publishing others’ private information, such as a physical or electronic
-            address, without explicit permission
+            Publishing others’ private information, such as a physical or email address, 
+            without their explicit permission
           </li>
           <li>
-            Other conduct which could reasonably be considered inappropriate in a
-            professional setting
+            Other conduct which could reasonably be considered inappropriate in a professional setting
           </li>
           <li>Unsolicited recruitment or advertising</li>
+          <li>
+              Any activity of a Criminal nature; breaking either local, state, federal, 
+              or internation laws and standards
+          </li>
         </ul>
 
         <h2 id="coc_our-responsibilities">Our Responsibilities</h2>
         <p>
-          Project maintainers and community organizers are responsible for clarifying
-          the standards of acceptable behavior and are expected to take appropriate and
-          fair corrective action in response to any instances of unacceptable behavior.
+          Community leaders are responsible for clarifying and enforcing our standards 
+          of acceptable behavior and will take appropriate and fair corrective action 
+          in response to any behavior that they deem inappropriate, threatening, 
+          offensive, or harmful.
         </p>
         <p>
-          Project maintainers and community organizers have the right and responsibility
-          to remove, edit, or reject comments, commits, code, wiki edits, issues, and
-          other contributions that are not aligned to this Code of Conduct, or to ban
-          temporarily or permanently any contributor for other behaviors that they deem
-          inappropriate, threatening, offensive, or harmful.
+          Community leaders have the right and responsibility to remove, edit, or 
+          reject comments, commits, code, wiki edits, issues, and other 
+          contributions that are not aligned to this Code of Conduct, and will 
+          communicate reasons for moderation decisions when appropriate.
         </p>
 
         <h2 id="coc_scope">Scope</h2>
         <p>
-          This Code of Conduct applies both within project spaces and in public spaces
-          when an individual is representing the project or its community. Examples of
-          representing a project or community include using an official project e-mail
-          address, posting via an official social media account, or acting as an
-          appointed representative at an online or offline event. Representation of a
-          project may be further defined and clarified by project maintainers.
+          This Code of Conduct applies within all community spaces, and also 
+          applies when an individual is officially representing the community 
+          in public spaces. Examples of representing our community include using 
+          an official e-mail address, posting via an official social media account, 
+          or acting as an appointed representative at an online or offline event.
         </p>
 
         <h2 id="coc_enforcement">Enforcement</h2>
         <p>
-          Instances of abusive, harassing, or otherwise unacceptable behavior may be
-          reported by contacting the community lead at admin@rocdev.org. All complaints
-          will be reviewed and investigated and will result in a response that is deemed
-          necessary and appropriate to the circumstances. The community lead is
-          obligated to maintain confidentiality with regard to the reporter of an
-          incident. Further details of specific enforcement policies may be posted
-          separately.
+          Instances of abusive, harassing, or otherwise unacceptable behavior may be 
+          reported to the community leaders responsible for enforcement at admin@rocdev.org. 
+          All complaints will be reviewed, investigated, and will result in a response 
+          that is deemed necessary and appropriate to the circumstances. 
+        </p>
+        <p>
+          All community leaders are obligated to respect the privacy and security 
+          of the reporter of any incident.
         </p>
         <p>
           Project maintainers and community organizers who do not follow or enforce the
@@ -90,10 +98,10 @@ export default function CodeOfConduct() {
 
         <h2 id="coc_attribution">Attribution</h2>
         <p>
-          This Code of Conduct is adapted from the
-          <a href="http://contributor-covenant.org">Contributor Convenant</a>, version
-          1.4, available at
-          <a href="http://contributor-covenant.org/version/1/4/">http://contributor-covenant.org/version/1/4/</a>.
+          This Code of Conduct is adapted from the 
+          <a href="https://www.contributor-covenant.org">Contributor Covenant</a>,
+          version 2.0, available at
+          <a href="https://www.contributor-covenant.org/version/2/0/code_of_conduct.html">https://www.contributor-covenant.org/version/2/0/code_of_conduct.html</a>
         </p>
       </div>
   )
