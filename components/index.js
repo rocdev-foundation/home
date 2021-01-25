@@ -1,8 +1,9 @@
-import Head from "next/head";
-import Anchor from "./anchor";
+import Anchors from "./anchor";
 import Heading from "./heading";
 import List from "./list";
 import Text from "./text";
+
+const { Anchor, NavAnchor } = Anchors;
 
 const htmlReplacements = {
   h1: Heading.H1,
@@ -14,4 +15,4 @@ const htmlReplacements = {
   ul: List.Unordered,
 };
 
-export { htmlReplacements, Anchor, Heading, List, Text };
+export { htmlReplacements, Heading, Anchor, NavAnchor, List, Text };
