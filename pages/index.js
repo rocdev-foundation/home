@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="text-justify">
       <section>
-        <Heading.H1 className={"text-center"}>
+        <Heading.H1 className={"text-center hidden sm:block"}>
           <Image src="/rocdev.svg" alt="RocDev logo" width={500} height={250} />
         </Heading.H1>
         <Text>
