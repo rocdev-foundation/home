@@ -7,4 +7,16 @@ const Anchor = (props) => (
   />
 );
 
-export default Anchor;
+const NavAnchor = (props) => (
+  <a
+    {...props}
+    className={`${
+      props.className || ""
+    } cursor-pointer text-gray-700 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium`}
+  />
+);
+
+export default {
+  Anchor,
+  NavAnchor,
+};

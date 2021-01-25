@@ -1,4 +1,5 @@
-import Anchor from "./anchor";
+import Anchors from "./anchor";
+const { Anchor } = Anchors;
 
 // Find the first text node and make it the ID
 const idFromChildren = (children) => {
