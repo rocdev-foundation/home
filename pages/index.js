@@ -27,7 +27,7 @@ export default function Home() {
       <section>
         <Heading.H3>Code of Conduct</Heading.H3>
         <Text>
-          The health and wealthfare of our members are paramount. Therefore, we
+          The health and welfare of our members are paramount. Therefore, we
           ask that you come in with a positive and inquisitive attitude and
           treat people with respect.
         </Text>
