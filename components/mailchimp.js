@@ -1,6 +1,5 @@
 import React from "react";
 import { useFormFields, useMailChimpForm } from "use-mailchimp-form";
-import styles from "./mailchimp.module.css";
 
 const Mailchimp = (props) => {
   const { loading, error, success, message, handleSubmit } = useMailChimpForm(
@@ -12,7 +11,7 @@ const Mailchimp = (props) => {
   return !props.postActionUrl ? (
     <p>You must provide a postActionUrl param to this component.</p>
   ) : (
-    <div className={styles.formwrapper}>
+    <div class="mt-2">
       <form
         onSubmit={(event) => {
           event.preventDefault();
@@ -25,14 +24,17 @@ const Mailchimp = (props) => {
           type="email"
           value={fields.EMAIL}
           onChange={handleFieldChange}
-          className={styles.input}
+          class="mr-4 p-2 text-sm rounded border-2 border-solid border-gray-200"
           placeholder="Email address"
         />
-        <button className={styles.submit} disabled={loading}>
-          {!loading && "Sign Up" || "Wait..."}
+        <button
+          class="p-2 text-white bg-red-600 hover:bg-red-800 rounded"
+          disabled={loading}
+        >
+          {(!loading && "Sign Up") || "Wait..."}
         </button>
       </form>
-      <div className={styles.messages}>
+      <div class="pl-1 text-sm text-left italic">
         {loading && "Submitting..."}
         {error && message}
         {success && message}
