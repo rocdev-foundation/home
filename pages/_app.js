@@ -8,6 +8,7 @@ function MyApp({ Component, pageProps }) {
     <>
       <Head>
         <title>RocDev</title>
+        <meta name="description" content="RocDev - We are a community of professionals in disciplines related to software development in the Greater Rochester Area."/>
         <link rel="icon" href="/favicon.ico" />
         <link
           href="https://fonts.googleapis.com/css?family=Crimson+Text"
