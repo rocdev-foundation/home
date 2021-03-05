@@ -82,7 +82,6 @@ const Nav = (props) => {
             </div>
             <div className="hidden sm:block sm:ml-6">
               <div className="flex space-x-4">
-                {/* Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" */}
                 <Link href="/code-of-conduct">
                   <NavAnchor>Code of Conduct</NavAnchor>
                 </Link>
@@ -92,13 +91,19 @@ const Nav = (props) => {
           <div className="flex-0 flex items-center justify-center sm:items-stretch sm:justify-start">
             <div className="hidden sm:block sm:ml-6">
               <div className="flex space-x-4">
-                {/* Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" */}
                 <NavAnchor
                   target="_blank"
                   rel="external nofollow noopener"
                   href="https://www.meetup.com/RocDev"
                 >
                   Meetup
+                </NavAnchor>
+                <NavAnchor
+                  target="_blank"
+                  rel="external nofollow noopener"
+                  href="http://www.youtube.com/channel/UC-U6kxmRTZXr6RDsXvwGeGw"
+                >
+                  YouTube
                 </NavAnchor>
                 <NavAnchor
                   target="_blank"
@@ -127,7 +132,6 @@ const Nav = (props) => {
         */}
       <div className={`${navExpanded ? "block" : "hidden"} sm:hidden`}>
         <div className="px-2 pt-2 pb-3 space-y-1">
-          {/* Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" */}
           <Link href="/">
             <NavAnchor className="block">Home</NavAnchor>
           </Link>
