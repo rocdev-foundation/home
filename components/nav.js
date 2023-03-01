@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import Anchor from "./anchor";
 
 const NavAnchor = (props) => (
   <a
@@ -74,17 +73,16 @@ const Nav = (props) => {
           </div>
           <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
             <div className="flex-shrink-0 flex items-center">
-              <Link href="/">
-                <Anchor className="block h-10 w-20 relative">
-                  <Image src="/rocdev.svg" alt="Home" layout="fill" />
-                </Anchor>
+              <Link
+                href="/"
+                className="block h-10 w-20 relative cursor-pointer hover:underline text-blue-600"
+              >
+                <Image src="/rocdev.svg" alt="Home" sizes="100vw" fill />
               </Link>
             </div>
             <div className="hidden sm:block sm:ml-6">
               <div className="flex space-x-4">
-                <Link href="/code-of-conduct">
-                  <NavAnchor>Code of Conduct</NavAnchor>
-                </Link>
+                <NavAnchor href="/code-of-conduct">Code of Conduct</NavAnchor>
               </div>
             </div>
           </div>
@@ -132,12 +130,12 @@ const Nav = (props) => {
         */}
       <div className={`${navExpanded ? "block" : "hidden"} sm:hidden`}>
         <div className="px-2 pt-2 pb-3 space-y-1">
-          <Link href="/">
-            <NavAnchor className="block">Home</NavAnchor>
-          </Link>
-          <Link href="/code-of-conduct">
-            <NavAnchor className="block">Code of Conduct</NavAnchor>
-          </Link>
+          <NavAnchor href="/" className="block">
+            Home
+          </NavAnchor>
+          <NavAnchor href="/code-of-conduct" className="block">
+            Code of Conduct
+          </NavAnchor>
           <NavAnchor
             target="_blank"
             rel="external nofollow noopener"
