@@ -1,4 +1,3 @@
-import Head from "next/head";
 import "tailwindcss/tailwind.css";
 import { MDXProvider } from "@mdx-js/react";
 import { htmlReplacements, Anchor, Nav } from "../components";
@@ -6,15 +5,6 @@ import { htmlReplacements, Anchor, Nav } from "../components";
 function MyApp({ Component, pageProps }) {
   return (
     <>
-      <Head>
-        <title>RocDev</title>
-        <meta name="description" content="RocDev - We are a community of professionals in disciplines related to software development in the Greater Rochester Area."/>
-        <link rel="icon" href="/favicon.ico" />
-        <link
-          href="https://fonts.googleapis.com/css?family=Crimson+Text"
-          rel="stylesheet"
-        />
-      </Head>
       <Nav />
       <div className="font-sans flex flex-col min-h-screen">
         <MDXProvider components={htmlReplacements}>

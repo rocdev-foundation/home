@@ -11,7 +11,7 @@ const Mailchimp = (props) => {
   return !props.postActionUrl ? (
     <p>You must provide a postActionUrl param to this component.</p>
   ) : (
-    <div class="mt-2">
+    <div className="mt-2">
       <form
         onSubmit={(event) => {
           event.preventDefault();
@@ -24,17 +24,17 @@ const Mailchimp = (props) => {
           type="email"
           value={fields.EMAIL}
           onChange={handleFieldChange}
-          class="mr-4 p-2 text-sm rounded border-2 border-solid border-gray-200"
+          className="mr-4 p-2 text-sm rounded border-2 border-solid border-gray-200"
           placeholder="Email address"
         />
         <button
-          class="p-2 text-white bg-red-600 hover:bg-red-800 rounded"
+          className="p-2 text-white bg-red-600 hover:bg-red-800 rounded"
           disabled={loading}
         >
           {(!loading && "Sign Up") || "Wait..."}
         </button>
       </form>
-      <div class="pl-1 text-sm text-left italic">
+      <div className="pl-1 text-sm text-left italic">
         {loading && "Submitting..."}
         {error && message}
         {success && message}
