@@ -2,7 +2,6 @@ import Image from "next/image";
 import Link from "next/link";
 import Head from "next/head";
 import { Anchor, Heading, Text } from "../components";
-import Mailchimp from "../components/mailchimp";
 
 export default function Home() {
   return (
@@ -66,7 +65,7 @@ export default function Home() {
             </Text>
             <Text>
               {/* generated from https://rocdev.slack.com/admin/shared_invites */}
-              <Anchor href="https://join.slack.com/t/rocdev/shared_invite/zt-hcnnt9ya-qlcLd8C0cF9Z0wksTS9G3g">
+              <Anchor href="https://join.slack.com/t/rocdev/shared_invite/zt-4fwnkdsg2-HWuNpPOp~5qgLJ9ivdF5~w">
                 Join our Slack workspace.
               </Anchor>
             </Text>
@@ -86,21 +85,6 @@ export default function Home() {
             </Text>
           </section>
         </div>
-
-        <section>
-          <Heading.H3>RocDev Newsletter</Heading.H3>
-          <Text>
-            Sign up for the bi-weekly RocDev Newsletter to get news, job
-            postings, links to interesting articles, and more delivered to your
-            inbox. The newsletter focuses on Rochester and the surrounding
-            region with some coverage of the national tech scene.
-          </Text>
-          <Mailchimp postActionUrl="https://dev.us10.list-manage.com/subscribe/post?u=41c48be81473d854f925435ed&amp;id=267830fcc6" />
-          <Text>
-            (Note: We do not share our subscriber list or other data with
-            anyone.)
-          </Text>
-        </section>
       </div>
     </>
   );
